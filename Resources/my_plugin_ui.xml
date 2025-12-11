@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI width="600" height="600">
+    <!-- Image component -->
+    <IMAGE name="background" file="Background.png"
+           x="0" y="0" width="600" height="600"
+           imageType="raster"/>
+
+    <!-- Knob component -->
+    <KNOB name="gain_knob" 
+          fileNamePrefix="Knob_" 
+          fileNameSuffix=".png"
+          x="200" y="200" 
+          width="200" height="200"
+          numberOfFrames="127" 
+          imageType="raster"/>
+</UI>
