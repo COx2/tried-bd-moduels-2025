@@ -4,3 +4,6 @@
 [submodule "External/Gin"]
 	path = External/Gin
 	url = git@github.com:FigBug/Gin.git
+[submodule "External/bd_binary_asset_utilities"]
+	path = External/bd_binary_asset_utilities
+	url = git@github.com:Bogren-Digital/bd_binary_asset_utilities.git
