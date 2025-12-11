@@ -13,3 +13,6 @@
 [submodule "External/bd_ui_loader"]
 	path = External/bd_ui_loader
 	url = git@github.com:Bogren-Digital/bd_ui_loader.git
+[submodule "External/playfultones_smoothresizing"]
+	path = External/playfultones_smoothresizing
+	url = git@github.com:playfultones/playfultones_smoothresizing.git
