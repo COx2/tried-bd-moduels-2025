@@ -10,3 +10,6 @@
 [submodule "External/bd_image_resampler"]
 	path = External/bd_image_resampler
 	url = git@github.com:Bogren-Digital/bd_image_resampler.git
+[submodule "External/bd_ui_loader"]
+	path = External/bd_ui_loader
+	url = git@github.com:Bogren-Digital/bd_ui_loader.git
