@@ -11,6 +11,6 @@
           fileNameSuffix=".png"
           x="200" y="200" 
           width="200" height="200"
-          numberOfFrames="127" 
+          numberOfFrames="128" 
           imageType="raster"/>
 </UI>

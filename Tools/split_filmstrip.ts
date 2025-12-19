@@ -9,10 +9,10 @@
  * Arguments:
  *   input.png   - 入力フィルムストリップ画像（WebKnobMan出力）
  *   output_dir  - 出力先ディレクトリ
- *   frames      - フレーム数（省略時は127）
+ *   frames      - フレーム数（省略時は128）
  * 
  * Example:
- *   deno run --allow-read --allow-write split_filmstrip.ts knob_filmstrip.png frames/ 127
+ *   deno run --allow-read --allow-write split_filmstrip.ts knob_filmstrip.png frames/ 128
  */
 
 import { Image } from "https://deno.land/x/imagescript@1.3.0/mod.ts";
@@ -120,17 +120,17 @@ function parseArgs(args: string[]): SplitOptions {
         console.error("Arguments:");
         console.error("  input.png   - Input filmstrip image (WebKnobMan output)");
         console.error("  output_dir  - Output directory for individual frames");
-        console.error("  frames      - Number of frames (default: 127)");
+        console.error("  frames      - Number of frames (default: 128)");
         console.error("");
         console.error("Options:");
         console.error("  --prefix    - Filename prefix for output frames (default: 'frame')");
         console.error("");
         console.error("Example:");
-        console.error("  deno run --allow-read --allow-write split_filmstrip.ts knob.png frames/ 127");
+        console.error("  deno run --allow-read --allow-write split_filmstrip.ts knob.png frames/ 128");
         Deno.exit(1);
     }
 
-    const numFrames = framesStr ? parseInt(String(framesStr), 10) : 127;
+    const numFrames = framesStr ? parseInt(String(framesStr), 10) : 128;
 
     if (isNaN(numFrames) || numFrames <= 0) {
         console.error(`Error: Invalid frame count: ${framesStr}`);
